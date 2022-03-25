@@ -42,7 +42,5 @@ class DateTool
 		var times = Math.floor(workingdays / weekWorkingdays);
 		//trace(times, workingdays, modulo, times * 7 + modulo);
 		return times * 7 + modulo;
-		
-	
 	}
 }
